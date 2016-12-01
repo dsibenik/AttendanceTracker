@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplikacija1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+ <uses-permission android:name="android.permission.CAMERA" />
+ <uses-feature android:name="android.hardware.camera" 
+     			android:required="true"/>
+ <uses-feature android:name="android.hardware.camera.autofocus" />
+ <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+ 
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.aplikacija1.MainActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name=".Plus_jedan"
+            android:screenOrientation="portrait">
+         </activity>
+         
+         <activity 
+            android:name=".Vidi_sve"
+            android:screenOrientation="portrait">
+         </activity>
+         
+          <activity 
+            android:name=".Dodaj_novi"
+            android:screenOrientation="portrait">
+         </activity>
+         
+         <activity 
+            android:name=".kamera"
+            android:screenOrientation="portrait">
+         </activity>
+         
+          <activity 
+            android:name=".ocrtest"
+            android:screenOrientation="portrait">
+         </activity>
+          
+    </application>
+
+</manifest>

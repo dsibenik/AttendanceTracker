@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:tag="@string/Ime" >
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/dodaj_novi22"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editText21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText224"
+        android:layout_below="@+id/textView21"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:hint="@string/jmbagza21"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText224"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText21"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:hint="@string/imeza22"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText234"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText224"
+        android:layout_below="@+id/editText224"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="@string/prezimeza23" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button21"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button23"
+        android:layout_alignBottom="@+id/button23"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29dp"
+        android:text="@string/JMBAG_kamerom" />
+
+    <Button
+        android:id="@+id/button23"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText234"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@+id/button21"
+        android:text="@string/Dodaj" />
+
+    <Button
+        android:id="@+id/button24"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button21"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp"
+        android:text="@string/nazad" />
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">aplikacija1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button">Plus jedan</string>
+    <string name="Plus_jedan">Plus jedan</string>
+    <string name="Dodaj_novi">Dodaj novi</string>
+    <string name="Vidi_sve">Vidi sve</string>
+    <string name="Ovdje_bi_trebala_biti_kamera">Ovdje bi trebala biti kamera</string>
+    <string name="Ime">Ime</string>
+    <string name="JMBAG_kamerom">JMBAG kamerom</string>
+    <string name="Dodaj">   Dodaj   </string>
+    <string name="Ispis_svih_studenata_i_bodova">Ispis svih studenata i bodova</string>
+    <string name="Pocetna">Pocetna</string>
+    <string name="by_d_sibenik">By D. Sibenik</string>
+    <string name="openCamera">Kamera</string>
+    <string name="prihvati">Prihvati</string>
+    <string name="dodaj_novi22">Dodaj novi</string>
+    <string name="Plus_jedan11">Plus jedan</string>
+    <string name="Dodaj11">Dodaj</string>
+    <string name="JMBAG_KAMEROM1">JMBAG kamerom</string>
+    <string name="jmbagza21">JMBAG</string>
+    <string name="imeza22">Ime</string>
+    <string name="prezimeza23">Prezime</string>
+    <string name="uslikate_jmbag">Uslikajte JMBAG</string>
+    <string name="pogledajsve">Pogledaj sve</string>
+    <string name="izbrisi">Izbrisi</string>
+    <string name="izbrisisve">Izbrisi sve</string>
+    <string name="nazad">Nazad</string>
+    <string name="izlaz">Izlaz</string>
+    <string name="Pogledaj_jednog">Pogledaj_jednog</string>
+    <string name="pogledajjednog">Pogledaj jednog</string>
+    <string name="jmbag">JMBAG</string>
+
+</resources>
